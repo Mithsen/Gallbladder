@@ -1,0 +1,17 @@
+﻿Build started 10/23/2017 4:23:32 PM.
+     1>Project "D:\chid3d\chai3d-3.1.1\modules\OCULUS\examples\SDL\06-object\06-object-VS2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../src /I../../../external/SDL/include /I../../../external/oculusSDK/LibOVR/Include /I../../../external/oculusSDK/LibOVRKernel/Src /I../../../../../src /I../../../../../external/Eigen /I../../../../../external/glew/include /I../../../../../extras/freeglut/include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"obj/Debug/Win32\\" /Fd"obj/Debug/Win32\vc120.pdb" /Gd /TP /wd4244 /wd4305 /analyze- /errorReport:prompt /MP ..\..\..\src\OVRDevice.cpp ..\..\..\src\OVRRenderContext.cpp "06-object.cpp"
+         OVRDevice.cpp
+         OVRRenderContext.cpp
+         06-object.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/win-Win32\06-object.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../external/SDL/lib/VS2013/Win32 /LIBPATH:../../../external/OculusSDK/LibOVR/Lib/Windows/Win32/Debug/VS2013 /LIBPATH:../../../external/OculusSDK/LibOVRKernel/Lib/Windows/Win32/Debug/VS2013 /LIBPATH:../../../../../lib/Debug/Win32 SDL2.lib SDL2Main.lib OpenGL32.lib glu32.lib chai3d.lib LibOVR.lib LibOVRKernel.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\chid3d\chai3d-3.1.1\modules\OCULUS\bin\win-Win32\06-object.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../bin/win-Win32\06-object.lib" /MACHINE:X86 /SAFESEH obj/Debug/Win32\OVRDevice.obj
+         obj/Debug/Win32\OVRRenderContext.obj
+         "obj/Debug/Win32\06-object.obj"
+         06-object-VS2013.vcxproj -> D:\chid3d\chai3d-3.1.1\modules\OCULUS\examples\SDL\06-object\../../../bin/win-Win32\06-object.exe
+     1>Done Building Project "D:\chid3d\chai3d-3.1.1\modules\OCULUS\examples\SDL\06-object\06-object-VS2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48

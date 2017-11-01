@@ -1,0 +1,23 @@
+﻿Build started 31-Oct-2017 9:11:54 PM.
+     1>Project "G:\chai3d-3.1.1\modules\GEL\examples\GLUT\03-GEL-duck\03-GEL-duck-VS2013.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../src /I../../../../../src /I../../../../../external/Eigen /I../../../../../external/glew/include /I../../../../../extras/freeglut/include /I../../../external/SDL/include /I../../../external/oculusSDK/LibOVR/Include /I../../../external/oculusSDK/LibOVRKernel/Src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MSVC /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"obj/Debug/Win32\\" /Fd"obj/Debug/Win32\vc120.pdb" /Gd /TP /wd4244 /wd4305 /analyze- /errorReport:prompt /MP ..\..\..\src\OVRDevice.cpp ..\..\..\src\OVRRenderContext.cpp "03-GEL-duck.cpp" predicates.cpp tetgen.cpp
+         OVRDevice.cpp
+         OVRRenderContext.cpp
+         03-GEL-duck.cpp
+         predicates.cpp
+         tetgen.cpp
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/win-Win32\03-GEL-duck.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../lib/Debug/Win32 /LIBPATH:../../../../../lib/Debug/Win32 /LIBPATH:../../../../../extras/freeglut/lib/Debug/Win32 /LIBPATH:../../../external/OculusSDK/LibOVRKernel/Lib/Windows/Win32/Debug/VS2013 /LIBPATH:../../../external/OculusSDK/LibOVR/Lib/Windows/Win32/Debug/VS2013 /LIBPATH:../../../external/SDL/lib/VS2013/Win32 freeglut.lib chai3d.lib "chai3d-GEL.lib" SDL2.lib SDL2Main.lib OpenGL32.lib glu32.lib LibOVR.lib LibOVRKernel.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../../bin/win-Win32\GEL-duck.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"../../../bin/win-Win32\03-GEL-duck.lib" /MACHINE:X86 /SAFESEH obj/Debug/Win32\OVRDevice.obj
+         obj/Debug/Win32\OVRRenderContext.obj
+         "obj/Debug/Win32\03-GEL-duck.obj"
+         obj/Debug/Win32\predicates.obj
+         obj/Debug/Win32\tetgen.obj
+         LINK : ../../../bin/win-Win32\03-GEL-duck.exe not found or not built by the last incremental link; performing full link
+     1>OVRDevice.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         03-GEL-duck-VS2013.vcxproj -> G:\chai3d-3.1.1\modules\GEL\examples\GLUT\03-GEL-duck\../../../bin/win-Win32\03-GEL-duck.exe
+     1>Done Building Project "G:\chai3d-3.1.1\modules\GEL\examples\GLUT\03-GEL-duck\03-GEL-duck-VS2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.79

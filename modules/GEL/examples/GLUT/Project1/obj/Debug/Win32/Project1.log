@@ -1,0 +1,19 @@
+﻿Build started 31-Oct-2017 8:24:35 PM.
+     1>Project "F:\Mithsen\chai3d-3.1.1\modules\GEL\examples\GLUT\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../../src /I../../../../../src /I../../../../../external/Eigen /I../../../../../external/glew/include /I../../../../../extras/freeglut/include /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"obj/Debug/Win32\\" /Fd"obj/Debug/Win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\02-GEL-cell\02-GEL-cell.cpp"
+         02-GEL-cell.cpp
+     1>..\02-GEL-cell\02-GEL-cell.cpp(238): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\02-GEL-cell\02-GEL-cell.cpp(239): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\02-GEL-cell\02-GEL-cell.cpp(428): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+     1>..\02-GEL-cell\02-GEL-cell.cpp(437): warning C4305: 'argument' : truncation from 'double' to 'const GLfloat'
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../bin/win-Win32\Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../../lib/Debug/Win32 /LIBPATH:../../../../../lib/Debug/Win32 /LIBPATH:../../../../../extras/freeglut/lib/Debug/Win32 freeglut.lib chai3d.lib "chai3d-GEL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../../bin/win-Win32\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../../bin/win-Win32\Project1.lib" /MACHINE:X86 "obj/Debug/Win32\02-GEL-cell.obj"
+         LINK : ../../../bin/win-Win32\Project1.exe not found or not built by the last incremental link; performing full link
+     1>02-GEL-cell.obj : warning LNK4217: locally defined symbol _glewInit@0 imported in function _main
+         Project1.vcxproj -> F:\Mithsen\chai3d-3.1.1\modules\GEL\examples\GLUT\Project1\../../../bin/win-Win32\Project1.exe
+     1>Done Building Project "F:\Mithsen\chai3d-3.1.1\modules\GEL\examples\GLUT\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82
